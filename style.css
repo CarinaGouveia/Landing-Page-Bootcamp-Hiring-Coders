@@ -1,0 +1,132 @@
+
+header, footer{
+    width: 100%;
+    height: 64px;
+    text-align: center;
+}
+
+h1{
+    font-size: 12px;
+    
+}
+
+header{
+    background-color:#161818;
+}
+
+footer{
+    background-color:rgb(248, 246, 248);
+    clear: both;
+}
+
+.w{
+    width: 50%;
+}
+
+.c1{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    float: left;
+    height: 600px;
+    background-color: rgb(250, 245, 249);
+}
+
+.c2{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    float:left;
+    height: 600px;
+    background-image: linear-gradient(25deg, white,rgb(243, 137, 51), rgb(238, 136, 20));
+}
+   
+@media screen and (max-width: 800px){
+    
+    h1{
+        font-size: 32px;
+        color: rgb(5, 0, 0);
+    }
+    .c1{
+        width: 50%;
+        background-color: rgb(240, 236, 237);
+        text-align: center;
+    }
+    .c2{
+        width: 50%;
+        background-image: linear-gradient(25deg, white,rgb(243, 137, 51), rgb(238, 136, 20));
+        text-align: center;
+        
+    }  
+}
+
+@media screen and (max-width: 600px){
+    
+    .c1{
+        width: 100%;
+        height: 600px;
+        text-align: center;
+    }
+    
+    .c2{
+        margin-top: 20px;
+        width: 100%;
+        height: 600px;
+        text-align: center;
+    }
+   #botao{ 
+       width: 50px;
+       float: right;
+        margin-right: 130px;
+        margin-top: 40px;
+        background-color: rgb(250, 245, 249) !important;
+    }
+
+    header{
+        margin-bottom: 20px;
+    }
+
+    #eletro{
+        width: 330px;
+        height: 80px;
+    }
+}
+
+#botao{
+    
+    width: 150px;
+    margin-left: 330px;
+    margin-top: 40px;
+    background-color: rgb(252, 247, 250) !important;
+}
+
+
+.c2{
+    border: rgb(202, 199, 202) solid 1px;
+    float:left;
+    box-shadow: rgb(197, 194, 197) 3px 3px 3px 3px;
+    border-radius: 21%;
+    
+}
+.conteudo{
+    margin-top: 80px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.form-group input{
+    width: 80%;
+    margin-left: 50px;
+}
+
+.BlackF{
+    text-align: center;
+}
+
+img{
+    margin-left: 20px;
+}
+
+.Black{
+    text-align:center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
